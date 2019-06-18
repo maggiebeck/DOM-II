@@ -31,6 +31,9 @@ function myFunction() {
 
 //* [ ] `load`
 
+function myFunction() {
+  alert("Page is loaded");
+}
 
 //* [ ] `focus`
 
@@ -39,6 +42,9 @@ function myFunction() {
 
 
 //* [ ] `scroll`
+function myFunction() {
+  document.getElementById("demo").innerHTML = x += 1;
+}
 //* [ ] `select`
 
 //* [ ] `dblclick`
@@ -46,7 +52,7 @@ function myFunction() {
 document.getElementById("intro").addEventListener("dblclick", myFunction);
 
 function myFunction() {
-  document.getElementById("intro").innerHTML = "I was double-clicked!";
+  document.getElementById("intro").innerHTML = "Fun Bus was double clicked!";
 }
 
 
