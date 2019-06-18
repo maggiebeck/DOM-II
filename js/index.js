@@ -39,6 +39,7 @@ function myFunction() {
 
 
 //* [ ] `resize`
+window.addEventListener('resize', (event) => alert('Page resized.'));
 
 
 //* [ ] `scroll`
